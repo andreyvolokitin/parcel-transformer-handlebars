@@ -1,0 +1,32 @@
+{
+  "name": "parcel-transformer-handlebars",
+  "version": "0.0.1",
+  "description": "Transform handlebars templates to HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andreyvolokitin/parcel-transformer-handlebars.git"
+  },
+  "engines": {
+    "parcel": "2.0.0-beta.3.1"
+  },
+  "dependencies": {
+    "cosmiconfig": "^6.0.0",
+    "front-matter": "^3.0.2",
+    "globby": "^10.0.1",
+    "handlebars": "^4.2.0",
+    "handlebars-helpers": "^0.10.0",
+    "handlebars-layouts": "^3.1.4",
+    "handlebars-wax": "^6.1.0",
+    "parcel-bundler": "^1.12.3"
+  },
+  "author": "Andrey Volokitin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andreyvolokitin/parcel-transformer-handlebars/issues"
+  },
+  "homepage": "https://github.com/andreyvolokitin/parcel-transformer-handlebars#readme"
+}
