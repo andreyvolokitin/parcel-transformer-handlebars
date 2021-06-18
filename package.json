@@ -1,6 +1,6 @@
 {
   "name": "@andreyvolokitin/parcel-transformer-handlebars",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Transform handlebars templates to HTML",
   "main": "index.js",
   "scripts": {
