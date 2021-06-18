@@ -11,7 +11,7 @@
     "url": "git+https://github.com/andreyvolokitin/parcel-transformer-handlebars.git"
   },
   "engines": {
-    "parcel": "2.0.0-beta.3.1"
+    "parcel": ">=2.0.0-beta.3.1"
   },
   "dependencies": {
     "cosmiconfig": "^6.0.0",
