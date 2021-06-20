@@ -55,9 +55,9 @@ const transformer = new Transformer({
     const { NODE_ENV } = process.env;
     const resolvedDepsPaths = glob.sync(Object.values(cfg));
 
-    for (let filePath of resolvedDepsPaths) {
-      await asset.addIncludedFile(path.resolve(filePath));
-    }
+    // for (let filePath of resolvedDepsPaths) {
+    //   await asset.addIncludedFile(path.resolve(filePath));
+    // }
 
     const render = wax.compile(body)({ NODE_ENV, ...attributes });
 
